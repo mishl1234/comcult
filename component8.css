@@ -1,73 +1,23 @@
-.frame-icon3,
-.frame-icon4,
-.frame33 {
+.frame-icon8,
+.frame-icon9,
+.frame43 {
   position: absolute;
   top: 0;
   height: 1239px;
   overflow: hidden;
 }
-.frame-icon3 {
+.frame-icon8 {
   left: 5px;
   width: 1881px;
   object-fit: cover;
 }
-.frame-icon4,
-.frame33 {
+.frame-icon9,
+.frame43 {
   left: -13px;
   width: 1886px;
 }
-.frame-icon4 {
-  left: 0;
-  height: 128px;
-}
-.item-link10,
-.item-link11,
-.item-link9 {
-  position: absolute;
-  top: 29px;
-  left: calc(50% - 502.4px);
-  line-height: 13px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34.1px;
-  height: 13px;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-  cursor: pointer;
-}
-.item-link10,
-.item-link11 {
-  left: calc(50% + 46.2px);
-  width: 79.7px;
-  transform: rotate(-180deg);
-}
-.item-link11 {
-  left: calc(50% + 328.6px);
-  width: 98.3px;
-  transform: rotate(180deg);
-}
-.list2 {
-  position: absolute;
-  width: calc(100% - 889px);
-  top: 0;
-  right: 405px;
-  left: 484px;
-  height: 40px;
-}
-.frame34,
-.frame35 {
-  position: absolute;
-  top: 81px;
-  left: 0;
+.frame-icon9 {
   width: 1894px;
-  height: 38px;
-  overflow: hidden;
-}
-.frame34 {
-  top: 0;
-  left: -13px;
   height: 128px;
 }
 .openart-image-btrzgzrg-1722126-icon,
@@ -84,9 +34,9 @@
   width: 354px;
   height: 354px;
 }
-.frame-icon5,
-.frame36,
-.frame38 {
+.frame-icon10,
+.frame44,
+.frame46 {
   position: absolute;
   top: 17px;
   left: 0;
@@ -94,14 +44,14 @@
   height: 354px;
   overflow: hidden;
 }
-.frame-icon5,
-.frame36 {
+.frame-icon10,
+.frame44 {
   top: 2014px;
   left: -13px;
   width: 1259px;
   height: 489px;
 }
-.frame-icon5 {
+.frame-icon10 {
   top: 95px;
   left: 0;
   width: 1886px;
@@ -115,7 +65,7 @@
   height: 700px;
   object-fit: cover;
 }
-.frame40 {
+.frame48 {
   position: absolute;
   top: 203px;
   left: 0;
@@ -131,7 +81,7 @@
   height: 353px;
   object-fit: cover;
 }
-.frame41 {
+.frame49 {
   position: absolute;
   top: 43px;
   left: 0;
@@ -147,8 +97,8 @@
   height: 729px;
   object-fit: cover;
 }
-.frame39,
-.frame42 {
+.frame47,
+.frame50 {
   position: absolute;
   top: 0;
   left: 0;
@@ -156,15 +106,15 @@
   height: 729px;
   overflow: hidden;
 }
-.frame39 {
+.frame47 {
   top: 591px;
   left: -13px;
   width: 1886px;
   height: 903px;
 }
 .frame-child10,
-.frame44,
-.frame45 {
+.frame52,
+.frame53 {
   position: absolute;
   top: 0;
   height: 1715px;
@@ -174,13 +124,13 @@
   background-color: var(--color-gray-200);
   width: 1879px;
 }
-.frame44,
-.frame45 {
+.frame52,
+.frame53 {
   left: 6px;
   width: 1880px;
   overflow: hidden;
 }
-.frame44 {
+.frame52 {
   top: 129px;
   left: 0;
   width: 1886px;
@@ -193,7 +143,7 @@
   height: 775px;
   object-fit: cover;
 }
-.frame46 {
+.frame54 {
   position: absolute;
   top: 289px;
   left: 0;
@@ -209,7 +159,7 @@
   height: 584px;
   object-fit: cover;
 }
-.frame47 {
+.frame55 {
   position: absolute;
   top: 242px;
   left: 0;
@@ -225,8 +175,8 @@
   height: 484px;
   object-fit: cover;
 }
-.frame43,
-.frame48 {
+.frame51,
+.frame56 {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +184,7 @@
   height: 484px;
   overflow: hidden;
 }
-.frame43 {
+.frame51 {
   top: 1144px;
   left: -13px;
   width: 1886px;
@@ -248,7 +198,7 @@
   height: 353px;
   object-fit: cover;
 }
-.frame50 {
+.frame58 {
   position: absolute;
   top: 0;
   left: 0;
@@ -264,8 +214,8 @@
   height: 864px;
   object-fit: cover;
 }
-.frame49,
-.frame51 {
+.frame57,
+.frame59 {
   position: absolute;
   top: 0;
   left: 0;
@@ -273,7 +223,7 @@
   height: 864px;
   overflow: hidden;
 }
-.frame49 {
+.frame57 {
   top: 1468px;
   left: -13px;
 }
@@ -285,7 +235,7 @@
   height: 354px;
   object-fit: cover;
 }
-.frame53 {
+.frame61 {
   position: absolute;
   top: 377px;
   left: 0;
@@ -301,7 +251,7 @@
   height: 799px;
   object-fit: cover;
 }
-.frame55 {
+.frame63 {
   position: absolute;
   top: 0;
   left: 0;
@@ -317,9 +267,9 @@
   height: 711px;
   object-fit: cover;
 }
-.frame52,
-.frame54,
-.frame56 {
+.frame60,
+.frame62,
+.frame64 {
   position: absolute;
   top: 74px;
   left: 0;
@@ -327,29 +277,58 @@
   height: 711px;
   overflow: hidden;
 }
-.frame52,
-.frame54 {
+.frame60,
+.frame62 {
   top: 0;
   height: 799px;
 }
-.frame52 {
+.frame60 {
   top: 2159px;
   left: -13px;
 }
-.item-link12 {
+.item-link10,
+.item-link11,
+.item-link12,
+.item-link9 {
   position: absolute;
-  top: 109px;
-  left: calc(50% - 183.5px);
+  top: 28px;
+  left: calc(50% - 502.4px);
+  text-decoration: underline;
   line-height: 13px;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 145px;
-  height: 11px;
-  transform: rotate(-180deg);
+  width: 34.1px;
+  height: 13px;
+  transform: rotate(180deg);
   transform-origin: 0 0;
   cursor: pointer;
+}
+.item-link10,
+.item-link11,
+.item-link12 {
+  left: calc(50% + 328.6px);
+  width: 98.3px;
+}
+.item-link11,
+.item-link12 {
+  left: calc(50% + 46.2px);
+  width: 79.7px;
+  transform: rotate(-180deg);
+}
+.item-link12 {
+  top: 24px;
+  left: calc(50% - 169.5px);
+  width: 145px;
+  height: 11px;
+}
+.container8 {
+  position: absolute;
+  top: 76px;
+  left: 82px;
+  width: 1815px;
+  height: 38px;
 }
 .div6 {
   width: 100%;

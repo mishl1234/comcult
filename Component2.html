@@ -18,6 +18,56 @@
   <body>
     <div class="div2">
       <div class="frame8">
+        <div class="frame9">
+          <div class="frame10" id="frameContainer">
+            <div class="vector-parent" id="frameContainer">
+              <img
+                class="frame-item"
+                alt=""
+                src="./public/rectangle-18.svg"
+                id="rectangle"
+              />
+
+              <div class="click-here-and-container" id="clickHereAnd">
+                <span class="click-here-and-container1">
+                  <p class="blank-line">&nbsp;</p>
+                  <p class="click-here">Click Here</p>
+                  <p class="and-unlock-the">And Unlock the Mystery</p>
+                  <p class="and-join-us">and Join Us Today!</p>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="i-am-accepting">
+            i am accepting all the terms of the community
+          </div>
+        </div>
+        <div class="frame11">
+          <div class="contact-us-email-container">
+            <p class="and-join-us">&nbsp;</p>
+            <p class="contact-us-email">
+              Contact Us: Email: support@warmcommunity.com | Address: 123
+              Community Lane, Hometown, USA | Phone: +1-800-123-4567 Follow
+              Us:Facebook: @WarmCommunity | Twitter: @CommunityConnect |
+              Instagram: @WarmCommunityLife
+            </p>
+            <p class="and-join-us">
+              Warm Community © 2024 | All rights reserved. Unauthorized use of
+              our content is prohibited.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="home-parent">
+        <div class="home" id="homeText">home</div>
+        <div class="home" id="whatIsThe">what is the community?</div>
+        <div class="home" id="howWeHelp">how we help</div>
+        <div class="home" id="booksServices">books & services</div>
+        <div class="join-us-wrapper">
+          <div class="join-us1">join us</div>
+        </div>
+      </div>
+      <div class="frame12" data-scroll-to="frameContainer">
         <div class="step-into-our">
           Step into our captivating community, where every click draws you
           deeper into a world teeming with secrets and connections. Imagine
@@ -32,42 +82,8 @@
           community.
         </div>
       </div>
-      <div class="i-am-accepting">
-        i am accepting all the terms of the community
-      </div>
-      <div class="frame9">
-        <div class="contact-us-email-container">
-          <span class="contact-us-email-container1">
-            <p class="blank-line">&nbsp;</p>
-            <p class="contact-us-email">
-              Contact Us: Email: support@warmcommunity.com | Address: 123
-              Community Lane, Hometown, USA | Phone: +1-800-123-4567 Follow
-              Us:Facebook: @WarmCommunity | Twitter: @CommunityConnect |
-              Instagram: @WarmCommunityLife
-            </p>
-            <p class="blank-line">
-              Warm Community © 2024 | All rights reserved. Unauthorized use of
-              our content is prohibited.
-            </p>
-          </span>
-        </div>
-      </div>
-      <div class="frame10">
-        <div class="vector-parent" id="frameContainer">
-          <img class="frame-item" alt="" src="./public/rectangle-18.svg" />
-
-          <div class="click-here-and-container">
-            <span class="contact-us-email-container1">
-              <p class="blank-line1">&nbsp;</p>
-              <p class="click-here">Click Here</p>
-              <p class="and-unlock-the">And Unlock the Mystery</p>
-              <p class="blank-line">and Join Us Today!</p>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="frame11">
-        <div class="frame12">
+      <div class="frame13">
+        <div class="frame14">
           <img
             class="openart-image-hjmwfblo-1721757-icon"
             alt=""
@@ -76,9 +92,9 @@
 
           <img class="frame-inner" alt="" src="./public/rectangle-21.svg" />
 
+          <div class="container7"></div>
           <img class="rectangle-icon" alt="" src="./public/rectangle-121.svg" />
 
-          <div class="join-us1">join us</div>
           <div class="join-us2">join us</div>
           <div class="join-us3">join us</div>
           <div class="join-us4">join us</div>
@@ -86,20 +102,35 @@
           <div class="join-us6">join us</div>
           <div class="join-us7">join us</div>
           <div class="join-us8">join us</div>
-          <div class="home-parent">
-            <div class="home" id="homeText">home</div>
-            <div class="home" id="whatIsThe">what is the community?</div>
-            <div class="home" id="howWeHelp">how we help</div>
-            <div class="home" id="booksServices">books & services</div>
-            <div class="join-us-wrapper" id="frameContainer">
-              <div class="join-us9">join us</div>
-            </div>
-          </div>
+          <div class="join-us9">join us</div>
+        </div>
+      </div>
+      <div class="home-parent">
+        <div class="home" id="homeText">home</div>
+        <div class="home" id="whatIsThe">what is the community?</div>
+        <div class="home" id="howWeHelp">how we help</div>
+        <div class="home" id="booksServices">books & services</div>
+        <div class="join-us-container" id="frameContainer">
+          <div class="join-us1">join us</div>
         </div>
       </div>
     </div>
 
     <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./component6.html";
+        });
+      }
+
+      var clickHereAnd = document.getElementById("clickHereAnd");
+      if (clickHereAnd) {
+        clickHereAnd.addEventListener("click", function (e) {
+          window.location.href = "./component6.html";
+        });
+      }
+
       var frameContainer = document.getElementById("frameContainer");
       if (frameContainer) {
         frameContainer.addEventListener("click", function (e) {
@@ -137,8 +168,11 @@
 
       var frameContainer = document.getElementById("frameContainer");
       if (frameContainer) {
-        frameContainer.addEventListener("click", function (e) {
-          window.location.href = "Component2.html";
+        frameContainer.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='frameContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
         });
       }
     </script>
